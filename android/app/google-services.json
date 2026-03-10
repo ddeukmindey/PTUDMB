@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769415739370",
+    "project_id": "smartnotetdm",
+    "storage_bucket": "smartnotetdm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769415739370:android:b3aa88fbc3753862c1a493",
+        "android_client_info": {
+          "package_name": "com.example.smartnote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_JO7xbZZpaYvU9bR_t2iYIb5g_08GCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
