@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797318087218",
+    "project_id": "menumonan",
+    "storage_bucket": "menumonan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797318087218:android:d021051999da29274bb22b",
+        "android_client_info": {
+          "package_name": "com.example.menumonan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdcehWPxotAYfJB5jOn2dH4MCsbnz12_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
