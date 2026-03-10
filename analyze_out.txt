@@ -1,0 +1,9 @@
+Analyzing todolist...                                           
+
+   info - Unnecessary braces in a string interpolation - lib\delete.dart:11:45 - unnecessary_brace_in_string_interps
+   info - The local variable '_visibleItems' starts with an underscore - lib\home.dart:84:26 - no_leading_underscores_for_local_identifiers
+   info - Unnecessary use of multiple underscores - lib\home.dart:122:39 - unnecessary_underscores
+   info - 'surfaceVariant' is deprecated and shouldn't be used. Use surfaceContainerHighest instead. This feature was deprecated after v3.18.0-0.1.pre - lib\home.dart:165:54 - deprecated_member_use
+   info - 'MaterialStateProperty' is deprecated and shouldn't be used. Use WidgetStateProperty instead. Moved to the Widgets layer to make code available outside of Material. This feature was deprecated after v3.19.0-0.3.pre - lib\home.dart:182:24 - deprecated_member_use
+   info - 'MaterialState' is deprecated and shouldn't be used. Use WidgetState instead. Moved to the Widgets layer to make code available outside of Material. This feature was deprecated after v3.19.0-0.3.pre - lib\home.dart:183:35 - deprecated_member_use
+
