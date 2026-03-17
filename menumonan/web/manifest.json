@@ -1,6 +1,6 @@
 {
-    "name": "menumonan",
-    "short_name": "menumonan",
+    "name": "smartnote",
+    "short_name": "smartnote",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

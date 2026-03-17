@@ -3,11 +3,11 @@ plugins {
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
-    id("com.google.gms.google-services") // Google Services plugin
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.menumonan"
+    namespace = "com.example.smartnote"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -22,7 +22,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.menumonan"
+        applicationId = "com.example.smartnote"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -44,21 +44,6 @@ flutter {
     source = "../.."
 }
 dependencies {
-  // Import the Firebase BoM
-  implementation(platform("com.google.firebase:firebase-bom:34.9.0"))
-
-  // Firebase Authentication
-  implementation("com.google.firebase:firebase-auth")
-
-  // Cloud Firestore
-  implementation("com.google.firebase:firebase-firestore")
-
-  // Firebase Storage
-  implementation("com.google.firebase:firebase-storage")
-
-  // Firebase Analytics
-  implementation("com.google.firebase:firebase-analytics")
-
-  // Firebase Cloud Messaging
-  implementation("com.google.firebase:firebase-messaging")
+    // Thêm Firebase BoM như trong ảnh hướng dẫn
+    implementation(platform("com.google.firebase:firebase-bom:34.9.0"))
 }

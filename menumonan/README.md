@@ -1,4 +1,4 @@
-# menumonan
+# smartnote
 
 A new Flutter project.
 
