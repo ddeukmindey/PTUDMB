@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'widgets/auth_wrapper.dart';
-import 'screens/login_screen.dart';
-import 'home.dart';
+import 'screens/home_screen.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+void main() {
   runApp(const MyApp());
 }
 
@@ -19,16 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Smart Note',
+      title: 'Menu App',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
       ),
-      home: const AuthWrapper(),
-      routes: {
-        '/login': (context) => const LoginScreen(),
-        '/home': (context) => const HomeScreen(),
-      },
+      home: const HomeScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

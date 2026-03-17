@@ -74,10 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildBody() {
-    // legacy unused
-    return const SizedBox.shrink();
-  }
+
 
   Widget _buildCategoryView(String category) {
     if (_loading) {
